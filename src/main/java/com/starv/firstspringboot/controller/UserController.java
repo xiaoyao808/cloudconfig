@@ -35,6 +35,11 @@ public class UserController {
     public String hello(){
         return "index";
     }
+    
+     @RequestMapping("index")
+    public String hello(){
+        return "index";
+    }
 
 
     @RequestMapping("saypaipai")
