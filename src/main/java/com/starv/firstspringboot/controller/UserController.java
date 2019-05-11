@@ -38,7 +38,7 @@ public class UserController {
     
      @RequestMapping("index")
     public String hello(){
-        return "index";
+        return "mapper";
     }
 
 
