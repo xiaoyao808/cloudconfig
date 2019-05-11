@@ -36,6 +36,12 @@ public class UserController {
         return "index";
     }
 
+
+    @RequestMapping("saypaipai")
+    public String saypaipai(){
+        return "index";
+    }
+
     @RequestMapping("verifyUname")
     @ResponseBody
     public Result verifyUname(String uname) {
